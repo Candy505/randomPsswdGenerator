@@ -5,11 +5,16 @@ let pswdEL = document.querySelector(".pswd-el");
 
  let pwd1 = "";
  let pwd2 ="" ;
+ let alive = 0 ;
 function gen()
 {
+    if(alive !=1){
     let len = document.getElementById("length").value ;
-   
-    
+     alive =1 ;
+       if(len > 15)
+       {
+         len =15;
+       }
       for(let i = 0 ; i<len;i++)
       {
      let ran1 = Math.floor(Math.random() * characters.length) ;
@@ -23,6 +28,13 @@ function gen()
    //  let sp = "        " ;
      pswdEL.textContent = pwd1 + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0'    +    pwd2 ;
       }
+    }
+
+    else
+    {
+        pswdEL.textContent = " ";
+       
+    }
     //   console.log(pwd1);
    // console.log(pwd2);
     
