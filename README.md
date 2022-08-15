@@ -2,3 +2,5 @@
 
 # randomPsswdGenerator
 This password generator allows you to create strong, random passwords with one click to boost your online security.
+
+wanna check it out ? :  https://candy505.github.io/randomPsswdGenerator/
