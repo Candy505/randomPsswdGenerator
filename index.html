@@ -1,38 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password-Generator</title>
-    <link href = "index.css" rel = "stylesheet">
-    <script src = "index.js"></script>
-</head>
-
-<body>
-    <div id = "container">
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id = "container">
        
-        <div class = "box">
-            <h1>Generate a random password</h1>
-            <p>Never use an insecure password again</p>
-            <p class = "gen">Generate password</p>
-            <p class = "pwd"></p>
-            <!-- <h1>Psswd generator</h1>
-          <p>Enter the length of the password</p>
-         <input type = "text" size ="10" id = "length">
-         <button id = "btn" onclick = gen()>generate</button>
-         <p class = "pswd-el"></p>
-        -->
-          
-         </div>
-         
-         
-         <div class = "box">
-          <h1>Generate a random password</h1>
-           <p>Never use an insecure password again</p>
-           <p class = "gen">Generate password</p>
-           <p class = "pwd"></p>
-             </div>
-     </div>
-</body>
+       <div class = "box">
+        <h1>Password generator</h1>
+         <p>Enter the length of the password</p>
+        <input type = "text" size ="10" id = "length">
+        <button id = "btn" onclick = gen()>generate</button>
+        <p class = "pswd-el">max length available 15</p>
+       
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
 </html>
