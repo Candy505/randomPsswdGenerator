@@ -3,6 +3,10 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    background-image: url(https://i.imgur.com/w28lqDU.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
    
 }
 
